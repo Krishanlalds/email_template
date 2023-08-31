@@ -15,20 +15,20 @@
   <div class="container-fluid">
     <div class="row min-vh-100">
       <!-- first column -->
-      <div id="welcome" class="col-2 bg-dark-subtle rounded-start-3">
+      <div id="welcome" class="col-sm-12 col-md-3 col-lg-2 bg-dark-subtle rounded-start-3">
         <h1 class=" mt-5 fst-italic"><i class="bi bi-person-circle"></i> welcome</h1>
-        <button type="button" class=" btn btn-secondary mt-5 mb-5">Compose</button>
+        <button type="button" class=" btn btn-secondary w-100 mt-5 mb-5 fs-4">Compose <i class="bi bi-plus-circle px-2"></i></button>
         <ul class="list-group">
-          <li class="list-group-item">Inbox (1)</li>
-          <li class="list-group-item">Important</li>
-          <li class="list-group-item">Drafts</li>
-          <li class="list-group-item">Sent</li>
-          <li class="list-group-item">Trash</li>
+          <li class="list-group-item"><i class="bi bi-envelope-fill fs-4 px-4"></i><strong>Inbox (1)</strong></li>
+          <li class="list-group-item"><i class="bi bi-envelope-exclamation fs-4 px-4"></i>Important</li>
+          <li class="list-group-item"><i class="bi bi-pencil-square fs-4 px-4"></i>Drafts</li>
+          <li class="list-group-item"><i class="bi bi-send fs-4 px-4"></i>Sent</li>
+          <li class="list-group-item"><i class="bi bi-trash3 fs-4 px-4"></i>Trash</li>
         </ul>
       </div>
 
       <!-- second column -->
-      <div id="emails" class="col-3 bg-light">
+      <div id="emails" class="col-sm-12 col-md-9 col-lg-3 bg-light">
         <!-- <h1>List of email</h1> -->
 
         <div class="input-group mt-5 mb-5">
@@ -36,37 +36,93 @@
           <button class="btn btn-secondary" type="button"><i class="bi bi-search"></i> Search</button>
         </div>
 
-        <div id="email1" class="card mb-3">
+        <div class="card mb-3 email1">
           <div class="card-body bg-dark-subtle">
                 <div class="row">
                   <div class="d-flex">
-                    <div class="col w-50"><p>August 27, 2023</p></div>
+                    <div class="col w-50"><p>March 22, 2022</p></div>
                     <div class="col d-flex w-50 justify-content-end"><p>2:45pm</p></div>
                   </div>
                     <div class="col px-4">
-                      <p><strong>Bootstrap Project</strong></p>
+                      <p><strong>Will Smith–Chris Rock slapping incident</strong></p>
                     </div>
                     <div class="row px-4 m-0">
-                      <p>Please choose either the landing page or . . .</p>
+                      <p>During last year's Oscar ceremony, Smith, who went on to win best actor . . .</p>
                     </div>
                 </div>
           </div>
         </div>
-        <div id="email2" class="card">
+
+        <div id="email2" class="card mb-3">
           <div class="card-body">
-            This is some text within a card body.
+                <div class="row">
+                  <div class="d-flex">
+                    <div class="col w-50"><p>July 03, 2023</p></div>
+                    <div class="col d-flex w-50 justify-content-end"><p>8:00am</p></div>
+                  </div>
+                    <div class="col px-4">
+                      <p><strong>	
+                        Tech Recruiting speaker Phillip Lan</strong></p>
+                    </div>
+                    <div class="row px-4 m-0">
+                      <p>Most students are first generation aspiring tech professionals . . .</p>
+                    </div>
+                </div>
           </div>
         </div>
-        <div id="email3" class="card">
+    
+        <div id="email3" class="card mb-3">
           <div class="card-body">
-            This is some text within a card body.
+                <div class="row">
+                  <div class="d-flex">
+                    <div class="col w-50"><p>June 20, 2023</p></div>
+                    <div class="col d-flex w-50 justify-content-end"><p>11:10am</p></div>
+                  </div>
+                    <div class="col px-4">
+                      <p><strong>	
+                        Javascript Loops</strong></p>
+                    </div>
+                    <div class="row px-4 m-0">
+                      <p>Loops offer a quick and easy way to do something repeatedly . . .</p>
+                    </div>
+                </div>
           </div>
         </div>
+
       </div>
 
       <!-- third column -->
-      <div id="read" class="col-7 bg-dark-subtle rounded-end-3">
-        <h1>open emails</h1>
+      <div id="read" class="col-sm-12 col-md-12 col-lg-7 bg-dark-subtle rounded-end-3 px-5">
+        <div class="row mt-5">
+          <div class="col"><p class="text-secondary">From: willsmith@gmail.com</p></div>
+          <div class="col d-flex justify-content-end fs-5"><i class="bi bi-three-dots"></i><i class="bi bi-reply"></i><i class="bi bi-trash"></i><i class="bi bi-inbox"></i></div>
+        </div>
+        <div class="row"><p class="text-secondary">To: chrisrock@yahoo.com</p></div>
+        <div class="row mt-3"><h2>Will Smith–Chris Rock slapping incident</h2></div>
+        <div class="row mt-3 textjs">
+          <p>Chris Rock has spoken at length for the first time about being slapped by Will Smith during the Oscars, almost a year since the scandal that shocked millions watching around the world.
+            <br><br>
+            “Everybody knows, yes it happened, I got slapped a year ago – I got smacked by this BADBOY,” Rock said. “And people are like, ‘Did it hurt?’ It still hurts. I’ve got Summertime ringing in my ears.”
+            <br><br>
+            Rock appeared weary and frustrated as he spoke about Smith at the end of his stand-up show Selective Outrage, which was streamed live on Netflix from the Hippodrome Theatre in Baltimore on Saturday night.
+            <br><br><em class="bg-warning fs-5"><strong>
+            During last year’s Oscar ceremony, Smith, who went on to win best actor that night, walked on stage and smacked Rock in the face in the middle of the broadcast, after he joked about Smith’s wife, Jada Pinkett Smith, having a bald head, which she shaves due to alopecia. The comedian later declined to press charges.</strong></em>
+            <br><br>
+            Days later Rock performed in Boston but said on stage then: “I’m still kind of processing what happened. So at some point I’ll talk about that shit. And it will be serious and funny.” Despite going on a world tour in between, this is the first time the comedian has spoken at length about the incident.</p>
+        </div>
+        <div class="row">
+          <div class="mt-3">
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="7" placeholder="Type your message"></textarea>
+          </div>
+        </div>
+        <div class="row mt-3">
+          <div class="col">
+            <button type="button" class="btn btn-secondary">Reply</button>
+          </div>
+          <div class="col d-flex justify-content-end">
+            <h2><i class="bi bi-paperclip "></i></h2>
+          </div>
+        </div>
       </div>
     </div>
 
